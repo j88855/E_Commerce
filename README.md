@@ -1,3 +1,5 @@
+## 展示
+https://e-commerce-nb18.onrender.com/docs
 ## 簡介
 - 一個使用 FastAPI + SQLAlchemy + PostgreSQL 開發的電商 API，支援使用者、商品、訂單管理，並整合日誌與測試。  
 - 本專案支援 Docker 容器化，可直接部署至 Render / Railway / Heroku 等平台。
