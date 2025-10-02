@@ -34,7 +34,7 @@ app = FastAPI(title="E-commerce API", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # 正式環境改成前端網址
+    allow_origins=ALLOWED_ORIGINS,  # 正式環境改成前端網址
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
